@@ -226,11 +226,27 @@ letter-spacing: 2px;
 color: var(--color-text);
 }
 
+/* Logo floral de FLORÉA */
 .brand-icon {
-    width: 38px;
-    height: 38px;
-    fill: var(--color-pink-vibrant);
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    display: block;
     flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+/* Efecto elegante al pasar el cursor */
+.brand-logo:hover .brand-icon {
+    transform: scale(1.08);
+}
+
+/* Alineación del nombre de la marca */
+.brand-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
 }
 
 .nav-menu {
