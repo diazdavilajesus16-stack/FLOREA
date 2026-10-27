@@ -157,13 +157,15 @@ h1, h2, h3, h4, .font-serif {
     background-color: #25D366;
     color: #ffffff;
     font-size: 0.85rem;
-    padding: 0.5rem 1rem;
-    white-space: nowrap; /* Evita que el texto se rompa */
+    padding: 0.6rem 1rem;
+    white-space: nowrap; /* Evita que el texto se parta */
+    width: 100%; /* ⚠️ ESTO HACE QUE EL BOTÓN OCUPE TODO EL ANCHO */
     box-shadow: 0 4px 12px rgba(37, 211, 102, 0.25);
     border-radius: var(--radius-full);
     position: relative;
     overflow: hidden;
     z-index: 1;
+    text-align: center;
 }
 
 /* Destello de luz al pasar el ratón */
@@ -609,12 +611,12 @@ h1, h2, h3, h4, .font-serif {
 /* ⚠️ ARREGLO DEL PIE DE TARJETA Y PRECIO */
 .product-footer {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0.5rem;
+    flex-direction: column; /* ⚠️ ESTO LOS APILA: precio arriba, botón abajo */
+    align-items: flex-start;
+    gap: 0.75rem; /* Separación entre precio y botón */
     padding-top: 1rem;
     border-top: 1px dashed var(--color-border);
-    margin-top: auto; /* Empuja el botón y precio siempre al fondo */
+    margin-top: auto;
 }
 
 .product-price {
