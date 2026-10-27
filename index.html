@@ -1,0 +1,682 @@
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FLORÉA - Flores que hablan por ti. Ramos únicos, rosas seleccionadas, orquídeas finas y regalos personalizados.">
+    <title>FLORÉA | Floristería Boutique & Regalos Elegantes</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Enlace a tu archivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header y Navegación -->
+    <header class="header">
+        <div class="container header-container">
+            <!-- LOGO CON IMAGEN Y TEXTO DE LA MARCA -->
+            <a href="#" class="brand-logo" aria-label="FLORÉA Inicio">
+                <!-- Reemplaza "tu-logo.png" por la ruta o URL de tu imagen de logo -->
+                <img src="rosa.png" alt="Logo FLORÉA" class="brand-icon">
+                <span class="brand-logo-text">FLORÉA</span>
+            </a>
+
+            <input type="checkbox" id="menu-toggle-cb" class="menu-checkbox" aria-label="Abrir menú de navegación">
+            <label for="menu-toggle-cb" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#rosas" class="nav-link">Rosas</a></li>
+                    <li><a href="#orquideas" class="nav-link">Orquídeas</a></li>
+                    <li><a href="#regalos" class="nav-link">Regalos</a></li>
+                    <li><a href="#ocasiones" class="nav-link">Ocasiones</a></li>
+                    <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                    <li>
+                        <a href="https://wa.me/51999999999?text=Hola%2C%20quiero%20realizar%20un%20pedido%20en%20FLOR%C3%89A" target="_blank" rel="noopener" class="btn btn-primary">
+                            Haz tu pedido
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-bg-shape"></div>
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="hero-subtitle">
+                    <svg class="icon-svg" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+                    Flores que hablan por ti
+                </span>
+                <h1 class="hero-title">El regalo perfecto para cada ocasión</h1>
+                <p class="hero-description">
+                    Ramos únicos, flores frescas y detalles especiales creados con delicadeza para convertir tus sentimientos en recuerdos inolvidables.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#rosas" class="btn btn-primary">Explorar colección</a>
+                    <a href="#regalos" class="btn btn-secondary">Crear mi regalo</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="img/hero-ramo-rosado.jpg" alt="Ramo de rosas rosadas y flores exclusivas FLORÉA">
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section class="benefits">
+        <div class="container benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <svg viewBox="0 0 24 24"><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-1-11v6h2v-6h-2zm0-4v2h2V7h-2z"/></svg>
+                </div>
+                <h3 class="benefit-title">Flores Seleccionadas</h3>
+                <p class="benefit-desc">Especies frescas de máxima calidad elegidas cada mañana por nuestros floristas.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.4h7.6l-6.2 4.5 2.4 7.4-6.2-4.5-6.2 4.5 2.4-7.4-6.2-4.5h7.6z"/></svg>
+                </div>
+                <h3 class="benefit-title">Diseños Exclusivos</h3>
+                <p class="benefit-desc">Arreglos personalizados adaptados a tus gustos y el estilo de quien lo recibe.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <svg viewBox="0 0 24 24"><path d="M20 6h-3.17L15 3.83A.996.996 0 0 0 14.29 3.5H9.71c-.26 0-.52.11-.71.29L6.83 6H3c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h17c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2z"/></svg>
+                </div>
+                <h3 class="benefit-title">Momentos Especiales</h3>
+                <p class="benefit-desc">El complemento idóneo para aniversarios, cumpleaños y detalles de amor.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                </div>
+                <h3 class="benefit-title">Pedidos Sencillos</h3>
+                <p class="benefit-desc">Atención cercana, respuesta inmediata y coordinación rápida vía WhatsApp.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catálogo Rosas -->
+    <section id="rosas" class="catalog">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Colección Premium</span>
+                <h2 class="section-title">Nuestra colección de rosas</h2>
+                <p class="section-subtitle">Selección exclusiva de rosas de alta gama en bouquets y presentaciones elegantes.</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- Producto 1 -->
+                <article class="product-card">
+                    <span class="badge">Más vendido</span>
+                    <div class="product-image-holder">
+                        <img src="img/rosa-freedom-roja.jpg" alt="Rosa Freedom Roja">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Rosa Freedom Roja</h3>
+                        <p class="product-desc">Ramo de 12 rosas rojas terciopelo de tallo largo con envoltura especial y lazo de satén.</p>
+                        <div class="product-footer">
+                            <span class="product-price">S/ 89.00</span>
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20deseo%20pedir%20el%20ramo%20Rosa%20Freedom%20Roja" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                                Pedir por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 2 -->
+                <article class="product-card">
+                    <span class="badge">Lujo</span>
+                    <div class="product-image-holder">
+                        <img src="img/rosa-red-naomi.jpg" alt="Rosa Red Naomi">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Rosa Red Naomi</h3>
+                        <p class="product-desc">Ramo premium de 12 rosas de máxima apertura con fragancia suave y follaje fino seleccionado.</p>
+                        <div class="product-footer">
+                            <span class="product-price">S/ 119.00</span>
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20deseo%20pedir%20el%20ramo%20Rosa%20Red%20Naomi" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                                Pedir por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 3 -->
+                <article class="product-card">
+                    <span class="badge">Romántico</span>
+                    <div class="product-image-holder">
+                        <img src="img/rosa-pink-mondial.jpg" alt="Rosa Pink Mondial">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Rosa Pink Mondial</h3>
+                        <p class="product-desc">Ramo rosado dulce de 12 rosas pastel combinadas con flores auxiliares blancas.</p>
+                        <div class="product-footer">
+                            <span class="product-price">S/ 95.00</span>
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20deseo%20pedir%20el%20ramo%20Rosa%20Pink%20Mondial" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                                Pedir por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 4 -->
+                <article class="product-card">
+                    <div class="product-image-holder">
+                        <img src="img/rosa-avalanche.jpg" alt="Rosa Avalanche">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Rosa Avalanche</h3>
+                        <p class="product-desc">Ramo delicado de rosas blancas puras que simbolizan la pureza y los nuevos comienzos.</p>
+                        <div class="product-footer">
+                            <span class="product-price">S/ 99.00</span>
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20deseo%20pedir%20el%20ramo%20Rosa%20Avalanche" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                                Pedir por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 5 -->
+                <article class="product-card">
+                    <div class="product-image-holder">
+                        <img src="img/rosa-high-yellow.jpg" alt="Rosa High Yellow">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Rosa High Yellow</h3>
+                        <p class="product-desc">Ramo vibrante y alegre de 12 rosas amarillas, ideal para celebrar logros y amistades únicas.</p>
+                        <div class="product-footer">
+                            <span class="product-price">S/ 89.00</span>
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20deseo%20pedir%20el%20ramo%20Rosa%20High%20Yellow" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                                Pedir por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 6 -->
+                <article class="product-card">
+                    <span class="badge">Especial</span>
+                    <div class="product-image-holder">
+                        <img src="img/rosa-preservada-eterna.jpg" alt="Rosa Preservada Eterna">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Rosa Preservada Eterna</h3>
+                        <p class="product-desc">Rosa natural tratada para durar años intacta, presentada en cúpula de cristal o caja de lujo.</p>
+                        <div class="product-footer">
+                            <span class="product-price">S/ 129.00</span>
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20deseo%20pedir%20la%20Rosa%20Preservada%20Eterna" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                                Pedir por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 7 -->
+                <article class="product-card">
+                    <div class="product-image-holder">
+                        <img src="img/rosa-miniatura.jpg" alt="Rosa Miniatura en Maceta">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Rosa Miniatura</h3>
+                        <p class="product-desc">Planta viva ornamental con mini rosas florecidas en maceta decorativa de cerámica pastel.</p>
+                        <div class="product-footer">
+                            <span class="product-price">S/ 49.00</span>
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20deseo%20pedir%20la%20Rosa%20Miniatura" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                                Pedir por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 8 -->
+                <article class="product-card">
+                    <div class="product-image-holder">
+                        <img src="img/rosa-spray-multiflora.jpg" alt="Rosa Spray Multiflora">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Rosa Spray Multiflora</h3>
+                        <p class="product-desc">Arreglo abundante con varias flores pequeñas por tallo, creando un bouquet silvestre y sofisticado.</p>
+                        <div class="product-footer">
+                            <span class="product-price">S/ 79.00</span>
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20deseo%20pedir%20el%20ramo%20Rosa%20Spray%20Multiflora" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                                Pedir por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Orquídeas -->
+    <section id="orquideas" class="catalog" style="background-color: var(--color-sage-light);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" style="background-color: #e2ebd8; color: #58704c;">Exóticas & Elegantes</span>
+                <h2 class="section-title">La elegancia de las orquídeas</h2>
+                <p class="section-subtitle">Descubre variedades majestuosas y especies nativas embellecidas en finas macetas y bases cerámicas.</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- Orquídea 1 -->
+                <article class="product-card">
+                    <div class="product-image-holder">
+                        <img src="img/orquidea-phalaenopsis.jpg" alt="Orquídea Phalaenopsis">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Phalaenopsis Mariposa</h3>
+                        <p class="product-desc">Orquídea clásica de flores amplias y duraderas. Presentada en maceta de cerámica blanca con musgo natural.</p>
+                        <div class="product-footer">
+                            <span class="product-price">S/ 135.00</span>
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20deseo%20informacion%20sobre%20la%20Orquidea%20Phalaenopsis" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                                Pedir por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Orquídea 2 -->
+                <article class="product-card">
+                    <div class="product-image-holder">
+                        <img
+    src="img/orquidea-cattleya.jpg"
+    alt="Orquídea Cattleya de pétalos rosados"
+    loading="lazy"
+>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Cattleya Majestuosa</h3>
+                        <p class="product-desc">Reconocida por sus grandes pétalos perfumados en tonos lilas y fucsias. Una joya floral inolvidable.</p>
+                        <div class="product-footer">
+                            <span class="product-price">S/ 160.00</span>
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20deseo%20informacion%20sobre%20la%20Orquidea%20Cattleya" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                                Pedir por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Orquídea 3 -->
+                <article class="product-card">
+                    <span class="badge" style="background-color: var(--color-sage); color: #fff;">Belleza de los Andes</span>
+                    <div class="product-image-holder">
+                        <img src="img/orquidea-masdevallia.jpg" alt="Masdevallia Veitchiana">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Masdevallia Veitchiana</h3>
+                        <p class="product-desc">Conocida como "Gallo-Gallo", especie emblemática andina de tonos anaranjados e irisados.</p>
+                        <div class="product-footer">
+                            <span class="product-price">S/ 180.00</span>
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20deseo%20informacion%20sobre%20la%20Masdevallia%20Veitchiana" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                                Pedir por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Orquídea 4 -->
+                <article class="product-card">
+                    <span class="badge" style="background-color: var(--color-sage); color: #fff;">Belleza de los Andes</span>
+                    <div class="product-image-holder">
+                        <img src="img/orquidea-phragmipedium.jpg" alt="Phragmipedium Kovachii">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Phragmipedium Kovachii</h3>
+                        <p class="product-desc">Orquídea peruana de flores grandes en tono púrpura vibrante. Exclusividad e identidad nativa.</p>
+                        <div class="product-footer">
+                            <span class="product-price">S/ 210.00</span>
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20deseo%20informacion%20sobre%20Phragmipedium%20Kovachii" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                                Pedir por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Regalos Personalizados -->
+    <section id="regalos" class="catalog">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Detalles inolvidables</span>
+                <h2 class="section-title">Regalos personalizados</h2>
+                <p class="section-subtitle">Combina tus flores favoritas con complementos dulces y elegantes para crear el regalo perfecto.</p>
+            </div>
+
+            <div class="products-grid">
+                <article class="product-card">
+                    <div class="product-image-holder">
+                        <img src="img/regalo-caja-velvet.jpg" alt="Caja Velvet con Chocolates">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Caja Velvet & Chocolates</h3>
+                        <p class="product-desc">Caja circular aterciopelada con rosas seleccionadas y bombones artesanales de cacao peruano.</p>
+                        <div class="product-footer">
+                            <span class="product-price">S/ 145.00</span>
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20deseo%20personalizar%20la%20Caja%20Velvet%20y%20Chocolates" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                                Personalizar regalo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image-holder">
+                        <img src="img/regalo-ramo-peluche.jpg" alt="Ramo con Peluche Premium">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Ramo & Peluche Suave</h3>
+                        <p class="product-desc">Bouquet de flores frescas acompañado por un tierno oso de peluche de alta calidad.</p>
+                        <div class="product-footer">
+                            <span class="product-price">S/ 130.00</span>
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20deseo%20personalizar%20el%20Ramo%20con%20Peluche" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                                Personalizar regalo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image-holder">
+                        <img src="img/regalo-globos.jpg" alt="Flores con Globos Metalizados">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Pack Globos & Celebración</h3>
+                        <p class="product-desc">Arreglo floral con globos metalizados personalizados con mensajes según el motivo.</p>
+                        <div class="product-footer">
+                            <span class="product-price">S/ 115.00</span>
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20deseo%20personalizar%20el%20Pack%20con%20Globos" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                                Personalizar regalo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image-holder">
+                        <img src="img/regalo-caja-sorpresa.jpg" alt="Caja Sorpresa Especial">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Caja Sorpresa Especial</h3>
+                        <p class="product-desc">Apertura mágica con flores, fotografías personalizadas, nota de dedicatoria y dulces.</p>
+                        <div class="product-footer">
+                            <span class="product-price">S/ 165.00</span>
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20deseo%20personalizar%20la%20Caja%20Sorpresa" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                                Personalizar regalo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ocasiones Especiales -->
+    <section id="ocasiones" class="catalog" style="background-color: var(--color-warm-white);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Colecciones por motivo</span>
+                <h2 class="section-title">Elige según la ocasión</h2>
+                <p class="section-subtitle">Diseños pensados minuciosamente para transmitir las emociones exactas que deseas regalar.</p>
+            </div>
+
+            <div class="products-grid">
+                <article class="product-card">
+                    <div class="product-image-holder">
+                        <img src="img/ocasion-cumpleanos.jpg" alt="Ramos de Cumpleaños">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Cumpleaños</h3>
+                        <p class="product-desc">Colores alegres y composiciones vivaces para celebrar un nuevo año de vida.</p>
+                        <div class="product-footer">
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20busco%20opciones%20para%20Cumplea%C3%B1os" target="_blank" rel="noopener" class="btn btn-secondary" style="width:100%;">
+                                Ver opciones
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image-holder">
+                        <img src="img/ocasion-aniversario.jpg" alt="Flores para Aniversario">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Aniversarios</h3>
+                        <p class="product-desc">Rosas rojas y arreglos románticos para reavivar la llama del amor eterno.</p>
+                        <div class="product-footer">
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20busco%20opciones%20para%20Aniversario" target="_blank" rel="noopener" class="btn btn-secondary" style="width:100%;">
+                                Ver opciones
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image-holder">
+                        <img src="img/ocasion-dia-madre.jpg" alt="Día de la Madre">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Día de la Madre</h3>
+                        <p class="product-desc">Ramos tiernos en tonos pastel y composiciones que expresan gratitud pura.</p>
+                        <div class="product-footer">
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20busco%20opciones%20para%20el%20Dia%20de%20la%20Madre" target="_blank" rel="noopener" class="btn btn-secondary" style="width:100%;">
+                                Ver opciones
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image-holder">
+                        <img src="img/ocasion-san-valentin.jpg" alt="San Valentín">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">San Valentín</h3>
+                        <p class="product-desc">Cajas de rosas, ramos gigantes y detalles clásicos para el día del amor.</p>
+                        <div class="product-footer">
+                            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20busco%20opciones%20para%20San%20Valentin" target="_blank" rel="noopener" class="btn btn-secondary" style="width:100%;">
+                                Ver opciones
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner Promocional -->
+    <section class="promo-banner" style="background: linear-gradient(135deg, var(--color-pink-pastel) 0%, var(--color-cream) 100%); padding: 4rem 0; text-align: center;">
+        <div class="container" style="max-width: 800px;">
+            <h2 style="font-size: 2.25rem; margin-bottom: 1rem;">Haz que cualquier día sea especial</h2>
+            <p style="color: var(--color-text-muted); font-size: 1.1rem; margin-bottom: 2rem;">Sorprende con flores frescas y regalos preparados minuciosamente con cariño.</p>
+            <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20deseo%20consultar%20por%20regalos%20disponibles" target="_blank" rel="noopener" class="btn btn-primary">
+                Descubrir regalos
+            </a>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Nosotros -->
+    <section id="nosotros" class="catalog">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-image-wrapper">
+                    <img src="img/nosotros-florista.png" alt="Florista en FLORÉA armando un ramo exclusivo">
+                </div>
+                <div class="hero-content">
+                    <span class="section-tag">Nuestra Esencia</span>
+                    <h2 class="section-title">Detalles creados con amor</h2>
+                    <p class="hero-description">
+                        En FLORÉA creemos que regalar flores no es solo entregar un detalle, sino compartir un sentimiento genuino. Seleccionamos cuidadosamente cada tallo y cada flor para asegurarnos de que tu mensaje llegue directo al corazón de quien lo recibe.
+                    </p>
+                    <a href="https://wa.me/51999999999?text=Hola%20FLOR%C3%89A%2C%20me%20gustaria%20saber%20mas%20de%20ustedes" target="_blank" rel="noopener" class="btn btn-primary">
+                        Conoce nuestra esencia
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="catalog" style="background-color: #ffffff;">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Opiniones</span>
+                <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+                <p class="section-subtitle">Ejemplos de experiencias compartidas por quienes confiaron en nosotros.</p>
+            </div>
+
+            <div class="products-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+                <div class="benefit-card">
+                    <p style="font-style: italic; margin-bottom: 1rem; color: var(--color-text-muted);">"El ramo de rosas Freedom llegó impecable y a tiempo para nuestro aniversario. La presentación en caja velvet superó mis expectativas."</p>
+                    <h4 style="color: var(--color-pink-vibrant); font-family: var(--font-serif);">María Fernanda C.</h4>
+                    <span style="font-size: 0.85rem; color: #f5a623;">★★★★★</span>
+                </div>
+
+                <div class="benefit-card">
+                    <p style="font-style: italic; margin-bottom: 1rem; color: var(--color-text-muted);">"La atención por WhatsApp fue súper rápida e intuitiva. Pedí una orquídea Phalaenopsis para el cumpleaños de mi mamá y le encantó."</p>
+                    <h4 style="color: var(--color-pink-vibrant); font-family: var(--font-serif);">Carlos Eduardo R.</h4>
+                    <span style="font-size: 0.85rem; color: #f5a623;">★★★★★</span>
+                </div>
+
+                <div class="benefit-card">
+                    <p style="font-style: italic; margin-bottom: 1rem; color: var(--color-text-muted);">"Pude personalizar la caja con rosas y bombones. Súper recomendados si buscas detalles elegantes y sofisticados."</p>
+                    <h4 style="color: var(--color-pink-vibrant); font-family: var(--font-serif);">Lucía V.</h4>
+                    <span style="font-size: 0.85rem; color: #f5a623;">★★★★★</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Elegante -->
+    <footer class="footer">
+        <!-- Tarjeta de Suscripción Newsletter -->
+        <div class="container">
+            <div class="newsletter-card">
+                <div class="newsletter-content">
+                    <span class="newsletter-tag">Novedades & Descuentos</span>
+                    <h3 class="newsletter-title">Recibe detalles e inspiración floral</h3>
+                    <p class="newsletter-desc">Suscríbete para conocer las colecciones de temporada y promociones exclusivas.</p>
+                </div>
+                <form class="newsletter-form" action="#" method="post" onsubmit="return false;">
+                    <input type="email" class="newsletter-input" placeholder="Tu correo electrónico..." required aria-label="Ingresa tu correo">
+                    <button type="submit" class="btn btn-primary">Suscribirme</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Contenido Principal del Footer -->
+        <div class="container footer-grid">
+    <!-- Columna 1: Marca y eslogan -->
+    <div class="footer-col brand-col">
+        <a href="#inicio" class="brand-logo footer-logo" aria-label="FLORÉA Inicio">
+            <img src="rosa.png" alt="Logo de FLORÉA" class="brand-icon">
+            <span class="brand-logo-text" style="color: #ffffff;">FLORÉA</span>
+        </a>
+                <p class="footer-tagline">“Flores que hablan por ti”</p>
+                <p class="footer-about">
+                    Floristería boutique especializada en arreglos florales exclusivos, rosas premium, orquídeas finas y detalles para regalar en cada ocasión inolvidable.
+                </p>
+                <!-- Redes Sociales -->
+                <div class="social-links">
+                    <a href="https://instagram.com" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    </a>
+                    <a href="https://facebook.com" target="_blank" rel="noopener" class="social-icon" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24"><path d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.374 14.5 5 15.5 5H18V0h-3.808C10.592 0 9 1.583 9 4.615V8z"/></svg>
+                    </a>
+                    <a href="https://wa.me/51999999999" target="_blank" rel="noopener" class="social-icon" aria-label="WhatsApp Directo">
+                        <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Columna 2: Navegación Rápida -->
+            <div class="footer-col">
+                <h4 class="footer-heading">Navegación</h4>
+                <ul class="footer-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#rosas">Colección de Rosas</a></li>
+                    <li><a href="#orquideas">Orquídeas Exóticas</a></li>
+                    <li><a href="#regalos">Regalos Personalizados</a></li>
+                    <li><a href="#ocasiones">Ocasiones Especiales</a></li>
+                    <li><a href="#nosotros">Sobre Nosotros</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 3: Colecciones -->
+            <div class="footer-col">
+                <h4 class="footer-heading">Colecciones</h4>
+                <ul class="footer-links">
+                    <li><a href="#rosas">Rosas Freedom Rojas</a></li>
+                    <li><a href="#rosas">Rosas Pink Mondial</a></li>
+                    <li><a href="#orquideas">Orquídeas Phalaenopsis</a></li>
+                    <li><a href="#orquideas">Belleza de los Andes</a></li>
+                    <li><a href="#regalos">Cajas Velvet & Chocolates</a></li>
+                    <li><a href="#regalos">Packs Sorpresa</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 4: Atención & Contacto -->
+            <div class="footer-col">
+                <h4 class="footer-heading">Atención al Cliente</h4>
+                <ul class="footer-contact-info">
+                    <li>
+                        <svg class="contact-icon" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                        <span>Atención presencial y envíos a todo el Perú</span>
+                    </li>
+                    <li>
+                        <svg class="contact-icon" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                        <span>pedidos@florea.pe</span>
+                    </li>
+                    <li>
+                        <svg class="contact-icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                        <span>Lun - Sáb: 8:00 am - 8:00 pm<br>Dom: 9:00 am - 2:00 pm</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Badges de Garantía -->
+        <div class="container">
+            <div class="footer-badges">
+                <div class="footer-badge-item">
+                    <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                    <span>Garantía de Frescura</span>
+                </div>
+                <div class="footer-badge-item">
+                    <svg viewBox="0 0 24 24"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg>
+                    <span>Envíos Programados</span>
+                </div>
+                <div class="footer-badge-item">
+                    <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                    <span>Hecho con Amor</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Línea Inferior y Copyright -->
+        <div class="footer-bottom-wrapper">
+            <div class="container footer-bottom">
+                <p>&copy; 2026 FLORÉA - Floristería Boutique. Todos los derechos reservados.</p>
+                <p class="footer-disclaimer">Fotografías e imágenes ilustrativas. Precios sujetos a disponibilidad de temporada.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
